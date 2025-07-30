@@ -1,7 +1,7 @@
 # SoulCycle AV Preventative Maintenance System
 ## Comprehensive System Analysis and Technical Specification
 
-**Author:** Manus AI  
+**Author:** Brian Anderson  
 **Date:** July 30, 2025  
 **Version:** 1.0
 
