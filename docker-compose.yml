@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  soulcycle-app:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+    environment:
+      - FLASK_ENV=development
+      - FLASK_APP=src/main.py
+      - DATABASE_URL=postgresql://soulcycle:soulcycle@db:5432/soulcycle
+
+  db:
+    image: postgres:14
+    restart: always
+    environment:
+      POSTGRES_USER: soulcycle
+      POSTGRES_PASSWORD: soulcycle
+      POSTGRES_DB: soulcycle
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
