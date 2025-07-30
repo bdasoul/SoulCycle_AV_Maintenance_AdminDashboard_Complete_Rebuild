@@ -100,7 +100,7 @@ The SoulCycle AV Maintenance System is a comprehensive preventative maintenance 
 ## 📈 Sample Data Included
 
 The system comes pre-populated with realistic sample data:
-- **4 Studio Locations**: Union Square (NY), West Hollywood (CA), Lincoln Park (IL), Back Bay (MA)
+- **4 Studio Locations**: 
 - **5 Equipment Items**: Representative AV equipment across all categories
 - **6 Maintenance Tasks**: Comprehensive task templates for each equipment type
 - **30 Maintenance Schedules**: Past, current, and future maintenance activities
